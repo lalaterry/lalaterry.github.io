@@ -2,7 +2,7 @@
 layout: post
 title: "PortSwigger Academy - Path traversal"
 date: 2024-08-22 12:00:00 +0800
-author: [Terry]
+author: 001
 categories: [PortSwigger Academy]
 tags: [Academy]
 ---
