@@ -11,6 +11,7 @@ tags: [Academy]
 # PortSwigger Academy - Path traversal
 
 ### Path traversal
+## Path traversal
 路徑遍歷（Path traversal）也稱為目錄遍歷（Directory traversal）。這些漏洞使攻擊者能夠讀取運行應用程序的服務器上的任意文件。這可能包括：
 
 * 應用程序代碼和數據。
