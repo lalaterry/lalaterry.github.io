@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Ethernaut"
-date: 2024-08-14 12:00:00 +0800
+date: 2024-08-29 12:00:00 +0800
 author: [001]
 categories: [Web3]
 tags: [CTF]
 ---
 
-###Ethernaut-Fallback
+### Ethernaut-Fallback
 
 POC
 ```
