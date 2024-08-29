@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Ethernaut"
+title: "Ethernaut-Fallback"
 date: 2024-08-29 12:00:00 +0800
 author: [001]
 categories: [Web3]
 tags: [CTF]
 ---
 
-### Ethernaut-Fallback
+### POC
 
-POC
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.21;
