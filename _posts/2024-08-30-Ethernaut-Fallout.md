@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ethernaut-Fallback"
+title: "Ethernaut-Fallout"
 date: 2024-08-30 12:00:00 +0800
 author: [001]
 categories: [Ethernaut]
