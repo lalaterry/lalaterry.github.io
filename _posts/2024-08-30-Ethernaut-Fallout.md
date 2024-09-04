@@ -7,7 +7,7 @@ categories: [Ethernaut]
 tags: [CTF]
 ---
 
-### POC
+## POC
 
 ```
 // SPDX-License-Identifier: MIT
