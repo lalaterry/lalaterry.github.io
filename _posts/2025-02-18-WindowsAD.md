@@ -46,8 +46,8 @@ Alice 的客戶端使用 NTLM 哈希值（基於密碼） 和伺服器提供的�
 * TGS（Ticket Granting Server）= 票據授權伺服器
 * SS（Service Server）= 特定服務提供端
 
-## Kerberos常見攻擊手法
-###  AS-REP Roasting
+# Kerberos常見攻擊手法
+##  AS-REP Roasting
 
 獲取Hash
  
@@ -66,7 +66,7 @@ hashcat解密
 sudo hashcat -m 18200 hashes.asreproast /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
 ````
 
-### Kerberoasting 
+## Kerberoasting 
 獲取hash
 
 impacket
@@ -88,7 +88,7 @@ sudo hashcat -m 13100 hashes.kerberoast /usr/share/wordlists/rockyou.txt -r /usr
 
 
 
-# 銀票
+## 銀票
 
 需要三個東西
 
