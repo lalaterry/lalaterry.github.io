@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PortSwigger Academy - Authentication vulnerabilities"
-date: 2025-05-21 12:00:00 +0800
+date: 2025-05-21 00:00:00 +0800
 author: [001]
 categories: [PortSwigger Academy]
 tags: [Academy]
