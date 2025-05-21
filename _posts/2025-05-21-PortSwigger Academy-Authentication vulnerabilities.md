@@ -7,7 +7,7 @@ categories: [PortSwigger Academy]
 tags: [Academy]
 ---
 # PortSwigger Academy - Authentication vulnerabilities
-===
+
 * 身分認證漏洞
 * 在本節重點
 * 網站最常用的身份驗證機制。
