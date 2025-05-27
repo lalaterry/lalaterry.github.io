@@ -7,12 +7,12 @@ categories: [工具]
 tags: [tools]
 ---
 
-# searchploit update
+### searchploit update
 ```
 searchploit -u
 ```
 
-# Basic Search
+### Basic Search
 ```
 kali@kali:~$ searchsploit afd windows local
 --------------------------------------------------------------------------------------- ---------------------------------
@@ -29,7 +29,7 @@ Microsoft Windows XP/2003 - 'afd.sys' Local Privilege Escalation (MS11-080)     
 --------------------------------------------------------------------------------------- ---------------------------------
 ```
 
-# Title Searching
+### Title Searching
 
 ```
 kali@kali:~$ searchsploit -t oracle windows
@@ -51,7 +51,7 @@ kali@kali:~$
 ```
 
 
-# Copy To Folder
+### Copy To Folder
 
 ```
 kali@kali:~$ searchsploit MS14-040
