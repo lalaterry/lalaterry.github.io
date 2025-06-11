@@ -18,3 +18,4 @@ tags: [tools]
 * [Netcraft](https://searchdns.netcraft.com/)
 * [exploit-db](https://www.exploit-db.com/)
 * [securtiyheaders](https://securityheaders.com/)
+* [hackthelogs](https://www.hackthelogs.com/mainpage.html)
