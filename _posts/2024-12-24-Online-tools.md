@@ -19,3 +19,4 @@ tags: [tools]
 * [exploit-db](https://www.exploit-db.com/)
 * [securtiyheaders](https://securityheaders.com/)
 * [hackthelogs](https://www.hackthelogs.com/mainpage.html)
+* [syscall.sh](https://syscall.sh/)
