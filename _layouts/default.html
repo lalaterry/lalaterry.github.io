@@ -29,21 +29,9 @@ layout: compress
               {% include refactor-content.html content=content lang=lang %}
               <!-- AdSense Center Row -->
                <div id="center-bottom" style="margin-top: 20px;">
-                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7928119747315368" crossorigin="anonymous">
-                 </script>
-                <ins
-                  class="adsbygoogle"
-                  style="display: block"
-                  data-ad-format="fluid"
-                  data-ad-layout-key="-eu-2+fi-5k-by"
-                  data-ad-client="ca-pub-3247366555534455"
-                  data-ad-slot="6737025706"
-                ></ins>
-                <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+                  {% include adsense_center.html %}
                </div>
-
+               
             {% else %}
               {{ content }}
             {% endif %}
