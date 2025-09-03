@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "線上工具"
+title: "工具"
 date: 2024-12-23 00:00:00 +0800
 author: [001]
 categories: [工具]
@@ -21,3 +21,8 @@ pin: true
 * [securtiyheaders](https://securityheaders.com/)
 * [hackthelogs](https://www.hackthelogs.com/mainpage.html)
 * [syscall.sh](https://syscall.sh/)
+* [web-check](https://github.com/Lissy93/web-check)
+
+
+
+
